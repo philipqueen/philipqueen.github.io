@@ -55,7 +55,7 @@ h1 {
 	font-size: 2em;
 }
 
-.hero {
+.heroa {
 	background-image: url('OldRagRock.jpg');
 	background-position: center top;
 	background-size: cover;
@@ -65,13 +65,28 @@ h1 {
 	font-family: 'Trebuchet MS', 'Helvetica';
 }
 
+.heroa a {
+	color: #00FFAA;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.herob {
+	background-image: url('MaineDock.jpg');
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+
 
 p {
-	color: #ffffff;
+	color: #000000;
 	font-size: 2em;
 }
 
-.hero a {
+.herob a {
 	color: #00FFAA;
 	font-size: 24px;
 	text-decoration: none;
