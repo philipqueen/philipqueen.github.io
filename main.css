@@ -20,13 +20,13 @@ h1 {
     display: block;
 }
 
-#nav {
+nav {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
 
-#nav li {
+nav li {
     display: block;
     position: relative;
     margin: 5px;
@@ -41,7 +41,7 @@ h1 {
     float: right;
 }
 
-#nav li a {
+nav li a {
     display: block;
     padding: 5px 5px 5px 5px;
     height: 20px;
