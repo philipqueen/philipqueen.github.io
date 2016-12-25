@@ -20,13 +20,13 @@ h1 {
     display: block;
 }
 
-nav {
+.nav {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
 
-nav li {
+.nav li {
     display: block;
     position: relative;
     margin: 5px;
@@ -41,12 +41,18 @@ nav li {
     float: right;
 }
 
-nav li a {
+.nav li a {
     display: block;
     padding: 5px 5px 5px 5px;
     height: 20px;
     text-decoration: none;
     text-align: center;
+}
+
+.home{
+    font-family: 'Trebuchet MS', 'Helvetica';
+    color: #000000;
+	font-size: 2em;
 }
 
 .hero {
