@@ -12,6 +12,42 @@ h1 {
 	font-size: 56px; 
 }
 
+.nav-bar{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 50px;
+    display: block;
+}
+
+#nav {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#nav li {
+    display: block;
+    position: relative;
+    margin: 5px;
+    background-color: white;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-right{
+    float: right;
+}
+
+#nav li a {
+    display: block;
+    padding: 5px 5px 5px 5px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+}
 
 .hero {
 	background-image: url('https://c2.staticflickr.com/8/7562/15783183147_70ef659a66_b.jpg');
