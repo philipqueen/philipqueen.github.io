@@ -56,7 +56,7 @@ h1 {
 }
 
 .hero {
-	background-image: url('https://c2.staticflickr.com/8/7562/15783183147_70ef659a66_b.jpg');
+	background-image: url('OldRagRock.jpg');
 	background-position: center top;
 	background-size: cover;
 	padding: 250px 0;
@@ -77,7 +77,7 @@ p {
 	text-decoration: none;
 }
 
-#footer {
+.footer {
 	color: DarkSlateGray;
 	font-size: 16px;
 }
