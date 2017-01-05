@@ -50,6 +50,30 @@ nav li a {
     text-align: center;
 }
 
+/* unvisited link */
+a:link {
+    color: #DCDCDC;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #DCDCDC;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
 .home{
     font-family: 'Trebuchet MS', 'Helvetica';
     color: #000000;
