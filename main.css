@@ -21,13 +21,13 @@ h1 {
     color: black;
 }
 
-nav {
+#nav {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
 
-nav li {
+#nav li {
     display: block;
     position: relative;
     margin: 5px;
@@ -42,7 +42,7 @@ nav li {
     float: right;
 }
 
-nav li a {
+#nav li a {
     display: block;
     padding: 5px 5px 5px 5px;
     height: 20px;
@@ -52,13 +52,13 @@ nav li a {
 
 /* unvisited link */
 a:link {
-    color: #DCDCDC;
+    color: #6699cc;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #DCDCDC;
+    color: #6699cc;
     text-decoration: none;
 }
 
@@ -85,8 +85,8 @@ a:active {
 	background-position: center top;
 	background-size: cover;
 	background-color: white;
-	padding: 250px 0;
-	margin: 20px;
+	padding: 150px 0;
+	margin: 30px;
 	font-family: 'Futura', 'Helvetica';
 }
 
@@ -101,8 +101,8 @@ a:active {
 	background-position: center top;
 	background-size: cover;
 	background-color: white;
-	padding: 250px 0;
-	margin: 20px;
+	padding: 150px 0;
+	margin: 30px;
 	font-family: 'Futura', 'Helvetica';
 
 
