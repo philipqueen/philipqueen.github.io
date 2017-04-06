@@ -70,10 +70,10 @@
 .statement {
 	display: inline-block;
 	vertical-align: middle;
-	width: 800px;
+	width: 600px;
 	height: 150px;
 	margin: 10px;
-	font-size: small;
+	font-size: 80%;
 }
 
 
