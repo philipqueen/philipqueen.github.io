@@ -55,7 +55,7 @@
     vertical-align: middle;
 	width: 250px;
 	height: 498px;
-	margin: 10px;
+	margin: 5px;
 	padding: 10px;
 }
 
@@ -70,10 +70,10 @@
 .statement {
 	display: inline-block;
 	vertical-align: middle;
-	width: 600px;
+	width: 700px;
 	height: 150px;
 	margin: 10px;
-	font-size: 80%;
+	font-size: 85%;
 }
 
 
@@ -98,7 +98,8 @@
 	width: 400px;
 	height: 300px;
 	margin: 10px;
-	padding: 10px
+	padding: 10px;
+	border: 1px solid black;
 }
 
 .about-image-box {
@@ -107,4 +108,14 @@
 	width: 640px;
 	height: 518px;
 	margin: 10px;
+}
+
+.contact-box {
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
 }
