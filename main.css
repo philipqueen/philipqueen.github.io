@@ -3,7 +3,8 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	border-bottom: 1px black solid;
+	margin-bottom: 5px;
+	border-bottom: 1px darkgrey solid;
 }
 
 #nav li {
