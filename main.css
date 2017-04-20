@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans|Source+Sans+Pro');
 
 a {
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h {
+	font-family: 'Open Sans', sans-serif;
 }
 
 #nav {
