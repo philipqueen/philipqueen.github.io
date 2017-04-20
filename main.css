@@ -64,7 +64,7 @@
 	display: inline-block;
 	vertical-align: middle;
 	width: 150px;
-	height: 150px;
+	height: 120px;
 	margin: 10px;
 }
 
@@ -124,11 +124,21 @@
 	display: inline-block;
 	vertical-align: middle;
 	background-image: url("https://c2.staticflickr.com/4/3937/33315861544_370ca3bfaf_z.jpg");
-	width: 640px;
-	height: 512px;
+	width: 512px;
+	height: 640px;
 	margin: 10px;
 }
 
 .contact-image-box:hover {
+	background-image: url(https://c1.staticflickr.com/3/2884/33773750970_a353490398_z.jpg);
+}
+
+#contact-image a {
+	background-image: url("https://c2.staticflickr.com/4/3937/33315861544_370ca3bfaf_z.jpg");
+	width: 512px;
+	height: 640px;
+}
+
+#contact-image a:hover {
 	background-image: url(https://c1.staticflickr.com/3/2884/33773750970_a353490398_z.jpg);
 }
