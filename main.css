@@ -123,16 +123,12 @@
 .contact-image-box {
 	display: inline-block;
 	vertical-align: middle;
-	width: 900px;
-	height: 640px;
+	background-image: url("https://c2.staticflickr.com/4/3937/33315861544_370ca3bfaf_z.jpg");
+	width: 640px;
+	height: 512px;
 	margin: 10px;
 }
 
-#contact-image {
-	width: 512px;
-	height: 640px;
-}
-
-#contact-image:hover {
-	<img src="https://c1.staticflickr.com/3/2884/33773750970_a353490398_z.jpg" alt="Utility in Florida" >
+.contact-image-box:hover {
+	background-image: url(https://c1.staticflickr.com/3/2884/33773750970_a353490398_z.jpg);
 }
