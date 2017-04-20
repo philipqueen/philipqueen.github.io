@@ -128,10 +128,11 @@
 	margin: 10px;
 }
 
-#ContactHover {
-	
+#contact-image {
+	width: 512px;
+	height: 640px;
 }
 
-#ContactHover a:hover {
-	<img src="https://c1.staticflickr.com/3/2884/33773750970_a353490398_z.jpg" alt="Utility in Florida" style="width:512px;height:640;">
+#contact-image:hover {
+	<img src="https://c1.staticflickr.com/3/2884/33773750970_a353490398_z.jpg" alt="Utility in Florida" >
 }
