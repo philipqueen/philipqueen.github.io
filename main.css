@@ -39,24 +39,6 @@ h {
 	text-decoration: underline;
 }
 
-#proj {
-
-}
-
-#proj li {
-	list-style: none;
-}
-
-#proj li a {
-	text-decoration: underline;
-	color: black;
-}
-
-#proj li a:hover{
-	text-decoration: none;
-	color: black;
-}
-
 .image-box {
 	display: inline-block;
     vertical-align: middle;
@@ -73,25 +55,6 @@ h {
 	margin: 5px;
 	padding: 10px;
 }
-
-.title {
-	display: inline-block;
-	vertical-align: middle;
-	width: 150px;
-	height: 120px;
-	margin: 10px;
-}
-
-.statement {
-	display: inline-block;
-	vertical-align: middle;
-	width: 700px;
-	height: 150px;
-	margin: 10px;
-	font-size: 85%;
-	overflow-x: visible;
-}
-
 
 #slides {
 	list-style: none; 
@@ -120,7 +83,7 @@ h {
 .about-image-box {
 	display: inline-block;
 	vertical-align: middle;
-	width: 900px;
+	width: 550px;
 	height: 640px;
 	margin: 10px;
 }
