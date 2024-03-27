@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'PHILIPQUEEN.GITHUB.IO',
+    title: 'personal_site',
     htmlAttrs: {
       lang: 'en',
     },
