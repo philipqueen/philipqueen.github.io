@@ -1,0 +1,211 @@
+:root {
+    --bg-color:  #f4f4f4;
+    --second-bg-color: #ddd;
+    --transparent-bg-color: #f7f7f7cc;
+    --low-contrast-text: #1e1e21;
+    --high-contrast-text: #0e0e0e;
+    --link-color: #3c3c82;
+}
+  
+.dark-mode {
+    --bg-color: #1e1e21;
+    --second-bg-color: #333;
+    --transparent-bg-color: #1e1e21cc;
+    --low-contrast-text: #ddd;
+    --high-contrast-text: #f6f6f6;
+    --link-color: #a7a7d2;
+}
+  
+body {
+    background-color: var(--bg-color);
+    color: var(--low-contrast-text);
+}
+
+a, a:link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--high-contrast-text);
+}
+
+p, li, ol, ul {
+    color: var(--low-contrast-text);
+    font-family: "Arial", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+p strong, li strong, ol strong, ul strong {
+    font-weight: bold;
+}
+
+/* Style for main pages */
+.main-page {
+    max-width: 600px; /* Limits the width of the content */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px; /* Adds spacing around the content */
+}
+
+.main-page img {
+    max-width: 90%; /* Ensures the image fits within the container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space below the image */
+    margin: 0 auto; /* Centers the image */
+    padding: 10px 0; /* Adds spacing around the image */
+}
+
+.main-page h1 a, .main-page h2 a, .main-page h3 a, .main-page h4 a, .main-page h5 a, .main-page h6 a {
+    text-decoration: none;
+    color: var(--high-contrast-text);
+}
+
+.main-page h1 a:hover, .main-page h2 a:hover, .main-page h3 a:hover, .main-page h4 a:hover, .main-page h5 a:hover, .main-page h6 a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the header */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.header-svg svg {
+    width: 100%;
+    height: auto;
+    stroke: var(--high-contrast-text);
+    background-color: var(--bg-color);
+    stroke-width: 1;
+    stroke-dasharray: none;
+    fill: none;
+}
+
+.header {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--bg-color);
+    color: var(--high-contrast-text);
+}
+  
+.header h1 {
+    margin: 0;
+}
+
+.header a:link, .header a:visited {
+    color: var(--high-contrast-text);
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+  
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+  
+nav a {
+    text-decoration: none;
+    color: var(--high-contrast-text);
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+  
+nav a:hover {
+    background-color: var(--second-bg-color);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--transparent-bg-color);
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 80px;
+        z-index: 999;
+    }
+
+    .nav-toggle {
+        display: block;
+        color: var(--high-contrast-text);
+    }
+    
+    .nav-open nav {
+        display: flex;
+        color: var(--link-color);
+    }
+    
+    nav a {
+        color: var(--link-color);
+        font-size: 30px;
+        margin: 5px 0;
+        text-decoration: none;
+    }
+}
+  
+.icon-toggle {
+    margin-left: 5px;
+}
+
+/* Style for the dark mode toggle switch */
+.icon-toggle {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.icon-toggle .icon {
+display: none;
+}
+
+.icon-toggle.light-mode .dark-icon {
+display: inline;
+}
+
+.icon-toggle.dark-mode .light-icon {
+display: inline;
+}
